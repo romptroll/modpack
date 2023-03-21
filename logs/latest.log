@@ -1,0 +1,611 @@
+[21Mar2023 21:34:56.600] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[21Mar2023 21:34:56.603] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.6 by Private Build
+[21Mar2023 21:34:56.743] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[21Mar2023 21:34:57.342] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.0/fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
+[21Mar2023 21:34:57.343] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.0/javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[21Mar2023 21:34:57.344] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.0/lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[21Mar2023 21:34:57.345] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.0/mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[21Mar2023 21:34:57.784] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 30 dependencies adding them to mods collection
+[21Mar2023 21:35:01.289] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Mar2023 21:35:01.380] [main/ERROR] [mixin/]: Mixin config riding_partners-common.mixins.json does not specify "minVersion" property
+[21Mar2023 21:35:01.384] [main/ERROR] [mixin/]: Mixin config riding_partners.mixins.json does not specify "minVersion" property
+[21Mar2023 21:35:01.556] [main/ERROR] [mixin/]: Mixin config vc.mixins.json does not specify "minVersion" property
+[21Mar2023 21:35:01.746] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[21Mar2023 21:35:01.747] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Mar2023 21:35:01.759] [main/WARN] [mixin/]: Reference map 'createdeco.refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.773] [main/WARN] [mixin/]: Reference map 'eureka-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.844] [main/WARN] [mixin/]: Reference map 'riding_partners-1.18.2-forge-refmap.json' for riding_partners.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.891] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.895] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.899] [main/WARN] [mixin/]: Reference map 'steampowered.refmap.json' for extendedgears.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.922] [main/WARN] [mixin/]: Reference map 'createindustry.refmap.json' for createindustry.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:01.996] [main/WARN] [mixin/]: Reference map 'createsandpapers.refmap.json' for createsandpapers.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:02.011] [main/WARN] [mixin/]: Reference map 'vc-forge-refmap.json' for vc.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:02.084] [main/WARN] [mixin/]: Reference map 'nethersdelight.refmap.json' for nethersdelight.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:02.137] [main/INFO] [Canary/]: Loaded configuration file for Canary: 106 options available, 1 override(s) found
+[21Mar2023 21:35:02.198] [main/WARN] [mixin/]: Reference map 'kawaiidishes.refmap.json' for KawaiiDishes.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Mar2023 21:35:02.285] [main/WARN] [mixin/]: Error loading class: lykrast/gunswithoutroses/entity/BulletEntity (java.lang.ClassNotFoundException: lykrast.gunswithoutroses.entity.BulletEntity)
+[21Mar2023 21:35:02.285] [main/WARN] [mixin/]: @Mixin target lykrast.gunswithoutroses.entity.BulletEntity was not found ars_industria.mixin.json:GWRBulletEntityMixin
+[21Mar2023 21:35:02.299] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/IronGolemModel (java.lang.ClassNotFoundException: net.minecraft.client.model.IronGolemModel)
+[21Mar2023 21:35:02.299] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.IronGolemModel was not found strawgolem.mixins.json:IronGolemModelMixin
+[21Mar2023 21:35:02.846] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
+[21Mar2023 21:35:02.847] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
+[21Mar2023 21:35:02.847] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found lightspeed.mixins.json:model.ModelBakeryMixin
+[21Mar2023 21:35:03.228] [main/WARN] [Canary/]: Force-disabling mixin 'world.player_chunk_tick.ChunkMapMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [pluto]) disables it and children
+[21Mar2023 21:35:03.474] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManager (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManager)
+[21Mar2023 21:35:03.495] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[21Mar2023 21:35:03.509] [main/WARN] [mixin/]: Error loading class: mezz/jei/forge/util/AnnotatedInstanceUtil (java.lang.ClassNotFoundException: mezz.jei.forge.util.AnnotatedInstanceUtil)
+[21Mar2023 21:35:06.947] [main/INFO] [me.steinborn.lazydfu.LazyDFU/]: Lazy DFU
+[21Mar2023 21:35:09.325] [modloading-worker-0/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
+[21Mar2023 21:35:09.343] [modloading-worker-0/INFO] [strawgolem/]: Pre-init started!
+[21Mar2023 21:35:09.344] [modloading-worker-0/INFO] [strawgolem/]: Registering config
+[21Mar2023 21:35:09.466] [modloading-worker-0/INFO] [strawgolem/]: Registering particles
+[21Mar2023 21:35:09.469] [modloading-worker-0/INFO] [strawgolem/]: Registering items
+[21Mar2023 21:35:09.471] [modloading-worker-0/INFO] [strawgolem/]: Registering entities
+[21Mar2023 21:35:09.511] [modloading-worker-0/WARN] [Advanced Peripherals/]: Successfully loaded integration for botania
+[21Mar2023 21:35:09.518] [modloading-worker-0/INFO] [strawgolem/]: Registering sounds
+[21Mar2023 21:35:09.518] [modloading-worker-0/INFO] [strawgolem/]: Registering capabilities
+[21Mar2023 21:35:09.522] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21Mar2023 21:35:09.522] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21Mar2023 21:35:09.522] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21Mar2023 21:35:09.522] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21Mar2023 21:35:09.522] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21Mar2023 21:35:09.523] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21Mar2023 21:35:09.554] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:09.559] [modloading-worker-0/WARN] [Advanced Peripherals/]: Successfully loaded integration for create
+[21Mar2023 21:35:09.600] [modloading-worker-0/INFO] [Advanced Peripherals/]: mekanism not loaded, skip integration loading
+[21Mar2023 21:35:09.600] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for mekanism
+[21Mar2023 21:35:09.624] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:09.716] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 6.53.
+[21Mar2023 21:35:09.786] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for extractPools in byg.mixins.json:common.world.level.storage.loot.MixinLootTableManager, previously written by corgitaco.enhancedcelestials.mixin.MixinLootTableManager. Skipping method.
+[21Mar2023 21:35:09.953] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:09.995] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.023] [modloading-worker-0/INFO] [Fastload/]: DEBUG: FALSE
+[21Mar2023 21:35:10.023] [modloading-worker-0/INFO] [Fastload/]: PREGEN_CHUNK_RADIUS: 5
+[21Mar2023 21:35:10.023] [modloading-worker-0/INFO] [Fastload/]: PREGEN_CHUNK_AREA: 121
+[21Mar2023 21:35:10.083] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21Mar2023 21:35:10.239] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.389] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.0, for MC 1.18.2 with MCP 20220404.173914
+[21Mar2023 21:35:10.389] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.0 Initialized
+[21Mar2023 21:35:10.414] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: registering stuff
+[21Mar2023 21:35:10.659] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.684] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.749] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.762] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.765] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.907] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:10.934] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id whisperwoods:main_channel/cdff7a8a5b4f3f218b5f77ef22e66016
+[21Mar2023 21:35:10.939] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id whisperwoods:main_channel/773a011a51b630fba84ab824165fbd92
+[21Mar2023 21:35:10.939] [modloading-worker-0/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Spooking you...
+[21Mar2023 21:35:11.077] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:11.079] [modloading-worker-0/INFO] [plus.dragons.createcentralkitchen.core.modules.ModModuleLoader/]: Successfully loaded module [farmersdelight] for mod [create_central_kitchen]
+[21Mar2023 21:35:11.080] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:11.090] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Tinkers Construct.
+[21Mar2023 21:35:11.090] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[21Mar2023 21:35:11.096] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Immersive Engineering.
+[21Mar2023 21:35:11.097] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
+[21Mar2023 21:35:11.381] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[21Mar2023 21:35:11.459] [modloading-worker-0/INFO] [fr.samlegamer.mcwfurnituresbyg.McwFurnituresBYG/]: Macaw's Furnitures - Oh the Biomes You'll Go : Loading...
+[21Mar2023 21:35:11.556] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[21Mar2023 21:35:11.608] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:11.672] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
+[21Mar2023 21:35:11.686] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
+[21Mar2023 21:35:11.696] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
+[21Mar2023 21:35:11.720] [modloading-worker-0/INFO] [fr.samlegamer.mcwfurnituresbyg.McwFurnituresBYG/]: Macaw's Furnitures - Oh the Biomes You'll Go : Is Charged
+[21Mar2023 21:35:11.733] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:11.812] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Mar2023 21:35:11.824] [modloading-worker-0/INFO] [pneumaticcraft/]: Thirdparty integration activated for [immersiveengineering,computercraft,waila,jei,botania,curios,patchouli,create]
+[21Mar2023 21:35:12.190] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
+[21Mar2023 21:35:12.195] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
+[21Mar2023 21:35:12.198] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
+[21Mar2023 21:35:12.226] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
+[21Mar2023 21:35:12.229] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
+[21Mar2023 21:35:12.233] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
+[21Mar2023 21:35:12.242] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
+[21Mar2023 21:35:12.244] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
+[21Mar2023 21:35:12.252] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
+[21Mar2023 21:35:12.254] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
+[21Mar2023 21:35:12.255] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
+[21Mar2023 21:35:12.280] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.platform.plugin.ForgePluginManager/]: Found and loaded ChiselsAndBits plugin: jei
+[21Mar2023 21:35:12.283] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.integration.jei.JEICompatConfiguration/]: Loaded JEI Compatibility configuration
+[21Mar2023 21:35:12.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_rod`, expected `coppergolem`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:15.579] [main/INFO] [net.forsteri.createindustrialchemistry.CreateIndustrialChemistry/]: HELLO from Register Block
+[21Mar2023 21:35:15.619] [main/INFO] [net.forsteri.createendertransmission.CreateEnderTransmission/]: HELLO from Register Block
+[21Mar2023 21:35:17.169] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_rod`, expected `coppergolem`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:17.277] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lantern`, expected `additionallanterns`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:17.295] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `hanging_roots`, expected `immersive_weathering`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:18.401] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:18.401] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:18.800] [main/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes/]: Registering recipe types.
+[21Mar2023 21:35:18.832] [main/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Enhanced Celestials registered: minecraft:sound_event
+[21Mar2023 21:35:19.109] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `betterfortresses` for name `fortress`, expected `yungsapi`. This could be a intended override, but in most cases indicates a broken mod.
+[21Mar2023 21:35:19.479] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityLeafcutterAnt from class com.github.alexthe666.alexsmobs.entity.EntityDevilsHolePupfish
+[21Mar2023 21:35:19.480] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexthe666.alexsmobs.entity.EntityMantisShrimp from class com.github.alexthe666.alexsmobs.entity.EntitySkelewag
+[21Mar2023 21:35:19.516] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/allay-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.518] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/Advancedperipherals/peripherals.toml is not correct. Correcting
+[21Mar2023 21:35:19.519] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Peripherals.Operations.chatMessageCooldown was corrected from 100 to its default, 1000. 
+[21Mar2023 21:35:19.523] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/Advancedperipherals/world.toml is not correct. Correcting
+[21Mar2023 21:35:19.524] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/guardvillagers-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.529] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/dummmmmmy-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.534] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/farmersdelight-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.540] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/twilightforest-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.588] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/immersive_weathering-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.610] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/gust.toml is not correct. Correcting
+[21Mar2023 21:35:19.612] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/launch.toml is not correct. Correcting
+[21Mar2023 21:35:19.616] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/slowfall.toml is not correct. Correcting
+[21Mar2023 21:35:19.617] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/slowfall.toml is not correct. Correcting
+[21Mar2023 21:35:19.621] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/aoe.toml is not correct. Correcting
+[21Mar2023 21:35:19.624] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/fortune.toml is not correct. Correcting
+[21Mar2023 21:35:19.628] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/smelt.toml is not correct. Correcting
+[21Mar2023 21:35:19.636] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/cut.toml is not correct. Correcting
+[21Mar2023 21:35:19.640] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/hex.toml is not correct. Correcting
+[21Mar2023 21:35:19.644] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/summon_undead.toml is not correct. Correcting
+[21Mar2023 21:35:19.646] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/toss.toml is not correct. Correcting
+[21Mar2023 21:35:19.649] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/toss.toml is not correct. Correcting
+[21Mar2023 21:35:19.658] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/extendedgears-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.662] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/charm.toml is not correct. Correcting
+[21Mar2023 21:35:19.663] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/ars_nouveau/poison_spores.toml is not correct. Correcting
+[21Mar2023 21:35:19.668] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/createaddition-common.toml is not correct. Correcting
+[21Mar2023 21:35:19.671] [modloading-worker-0/INFO] [strawgolem/]: Init started!
+[21Mar2023 21:35:19.671] [modloading-worker-0/INFO] [strawgolem/]: Registering packet IDs
+[21Mar2023 21:35:19.673] [modloading-worker-0/INFO] [strawgolem/]: Registering packets
+[21Mar2023 21:35:19.675] [modloading-worker-0/INFO] [cn.foggyhillside.endsdelight.EndsDelight/]: HELLO FROM PREINIT
+[21Mar2023 21:35:19.675] [modloading-worker-0/INFO] [cn.foggyhillside.endsdelight.EndsDelight/]: DIRT BLOCK >> minecraft:dirt
+[21Mar2023 21:35:19.689] [modloading-worker-0/INFO] [com.drmangotea.createindustry.CreateIndustry/]: HELLO FROM PREINIT
+[21Mar2023 21:35:19.689] [modloading-worker-0/INFO] [com.drmangotea.createindustry.CreateIndustry/]: DIRT BLOCK >> minecraft:dirt
+[21Mar2023 21:35:19.721] [modloading-worker-0/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[21Mar2023 21:35:19.724] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_shaped
+[21Mar2023 21:35:19.724] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_shapeless
+[21Mar2023 21:35:19.724] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_armordye
+[21Mar2023 21:35:19.724] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_bookcloning
+[21Mar2023 21:35:19.724] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_mapcloning
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_mapextending
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_firework_rocket
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_firework_star
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_firework_star_fade
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_tippedarrow
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_bannerduplicate
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_shielddecoration
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_shulkerboxcoloring
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_suspiciousstew
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:crafting_special_repairitem
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:smelting
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:blasting
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:smoking
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:campfire_cooking
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:stonecutting
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: minecraft:smithing
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: sophisticatedcore:upgrade_next_tier
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: sophisticatedcore:upgrade_clear
+[21Mar2023 21:35:19.725] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: alexsmobs:mimicream_repair_recipe
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: bookshelf:shaped_durability
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: bookshelf:shapeless_durability
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: sophisticatedbackpacks:backpack_upgrade
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: sophisticatedbackpacks:smithing_backpack_upgrade
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: sophisticatedbackpacks:backpack_dye
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: sophisticatedbackpacks:basic_backpack
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:compressor
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:coal_generator
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:oxygen_loader
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:oxygen_bubble_distributor
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:nasa_workbench
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:fuel_refinery
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:alien_trading_itemstack
+[21Mar2023 21:35:19.726] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:alien_trading_enchanted_book
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:alien_trading_enchanted_item
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:alien_trading_map
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:alien_trading_potioned_item
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:alien_trading_dyed_item
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: beyond_earth:space_station
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: twilightforest:magic_map_cloning_recipe
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: twilightforest:maze_map_cloning_recipe
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: twilightforest:moonworm_queen_repair_recipe
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: twilightforest:uncrafting
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: twilightforest:crumble_horn
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: twilightforest:transformation_powder
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: farmersdelight:cooking
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: farmersdelight:cutting
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: farmersdelight:food_serving
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: supermartijn642corelib:conditional
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:ancient_will_attach
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:armor_upgrade
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:black_hole_talisman_extract
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:composite_lens
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:cosmetic_attach
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:cosmetic_remove
+[21Mar2023 21:35:19.727] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:gog_alternation
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:keep_ivy
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:laputa_shard_upgrade
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:lens_dye
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:mana_gun_add_clip
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:mana_gun_add_lens
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:mana_gun_remove_lens
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:mana_upgrade
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:mana_upgrade_shapeless
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:merge_vial
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:nbt_output_wrapper
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:phantom_ink_apply
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:spell_cloth_apply
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:split_lens
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:terra_pick_tipping
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:twig_wand
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:water_bottle_matching_shaped
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:elven_trade
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:elven_trade_lexicon
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:mana_infusion
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:pure_daisy
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:state_copying_pure_daisy
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:brew
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:petal_apothecary
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:runic_altar
+[21Mar2023 21:35:19.728] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:runic_altar_head
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:terra_plate
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:orechid
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:orechid_ignem
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: botania:marimorphosis
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_hanging_lights
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_hanging_lights_augmentation
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_tinsel_garland
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_pennant_bunting
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_pennant_bunting_augmentation
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_triangle_pennant
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_spearhead_pennant
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_swallowtail_pennant
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_square_pennant
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_fairy_light
+[21Mar2023 21:35:19.729] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_paper_lantern
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_orb_lantern
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_flower_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_candle_lantern_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_oil_lantern_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_jack_o_lantern
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_skull_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_ghost_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_spider_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_witch_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_snowflake_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_heart_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_moon_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_star_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_icicle_lights
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_meteor_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_light_twinkle
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_color_changing_light
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_edit_color
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: fairylights:crafting_special_copy_color
+[21Mar2023 21:35:19.730] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: patchouli:shaped_book_recipe
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: patchouli:shapeless_book_recipe
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:colour
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:computer_upgrade
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:pocket_computer_upgrade
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:disk
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:printout
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:turtle
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:turtle_upgrade
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:impostor_shapeless
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: computercraft:impostor_shaped
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createbigcannons:melting
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createbigcannons:munition_fuzing
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createbigcannons:cartridge_assembly
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:amadron
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:assembly_laser
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:assembly_drill
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:pressure_chamber
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:pressure_chamber_enchanting
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:pressure_chamber_disenchanting
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:explosion_crafting
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:heat_frame_cooling
+[21Mar2023 21:35:19.731] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:refinery
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:thermo_plant
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:fluid_mixer
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:fuel_quality
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:heat_properties
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:one_probe_helmet_crafting
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:gun_ammo_potion_crafting
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:drone_upgrade_crafting
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:drone_color_crafting
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:patchouli_book_crafting
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:crafting_shaped_pressurizable
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: pneumaticcraft:crafting_shaped_no_mirror
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: enderstorage:create_recipe
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: enderstorage:recolour_recipe
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:enchanting_apparatus
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:enchantment
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:crush
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:imbuement
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:reactive_enchantment
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:spell_write
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:glyph
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:book_upgrade
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:potion_flask
+[21Mar2023 21:35:19.732] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_nouveau:dye
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ars_industria:scribe_bullet
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: forge:conditional
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: bigreactors:reprocessor
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: bigreactors:fluidizersolid
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: bigreactors:fluidizersolidmixing
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: bigreactors:fluidizerfluidmixing
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:material
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:tool_building
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:tinker_station_part_swapping
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:tinker_station_damaging
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:part_builder
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:item_part_builder
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:part_builder_tool_recycling
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:tinker_station_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:crafting_table_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:specialized_station_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:specialized_repair_kit
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:incremental_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:swappable_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:multilevel_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:overslime_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:modifier_salvage
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:armor_dyeing_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:creative_slot_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:modifier_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:crafting_modifier_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:modifier_material_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:crafting_modifier_material_repair
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:remove_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:extract_modifier
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:modifier_sorting
+[21Mar2023 21:35:19.733] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:modifier_set_worktable
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:enchantment_converting
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:severing
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:ageable_severing
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:player_beheading
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:snow_golem_beheading
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:mooshroom_demushrooming
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:sheep_shearing
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:casting_basin
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:casting_table
+[21Mar2023 21:35:19.734] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:basin_filling
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:table_filling
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:casting_basin_potion
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:casting_table_potion
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:retextured_casting_basin
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:retextured_casting_table
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:basin_casting_material
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:table_casting_material
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:basin_casting_composite
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:table_casting_composite
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:material_fluid
+[21Mar2023 21:35:19.735] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:molding_table
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:molding_basin
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:melting
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:ore_melting
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:damagable_melting
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:material_melting
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:melting_fuel
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:entity_melting
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: tconstruct:alloy
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createindustrialchemistry:electrolysis
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createindustrialchemistry:cooling
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:crafting_special_speedloader_load
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:crafting_special_flare_bullet_color
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:crafting_special_potion_bullet_fill
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:crafting_special_jerrycan_refill
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:powerpack
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:hammer_crushing
+[21Mar2023 21:35:19.736] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:earmuffs
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:rgb
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:turn_and_copy
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:revolver_assembly
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:revolver_cycle
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:ie_item_repair
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:shader_bag
+[21Mar2023 21:35:19.737] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:damage_tool
+[21Mar2023 21:35:19.738] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:shaped_fluid
+[21Mar2023 21:35:19.738] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:shapeless_fluid
+[21Mar2023 21:35:19.738] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:no_container_item
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:alloy
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:blast_furnace
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:blast_furnace_fuel
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:coke_oven
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:cloche
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:fertilizer
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:blueprint
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:metal_press
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:arc_furnace
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:bottling_machine
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:crusher
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:sawmill
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:fermenter
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:squeezer
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:refinery
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:mixer
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:mineral_mix
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:generator_fuel
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:thermoelectric_source
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:windmill_biome
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: immersiveengineering:generated_list
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ae2:inscriber
+[21Mar2023 21:35:19.739] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ae2:facade
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ae2:entropy
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: ae2:matter_cannon
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:conversion
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:crushing
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:cutting
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:milling
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:basin
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:mixing
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:compacting
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:pressing
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:sandpaper_polishing
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:splashing
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:haunting
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:deploying
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:filling
+[21Mar2023 21:35:19.740] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:emptying
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:item_application
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:mechanical_crafting
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:sequenced_assembly
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create:toolbox_dyeing
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create_central_kitchen:cutting_board_deploying
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: mantle:crafting_shaped_fallback
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: mantle:crafting_shaped_retextured
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: kawaiidishes:coffee_pressing
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: kawaiidishes:coffee_machining
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: kawaiidishes:mortar_grinding
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: kawaiidishes:ice_cream_making
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: chiselsandbits:bag_dyeing
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: chiselsandbits:modification_table
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: create_enchantment_industry:disenchanting
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: drinkbeer:brewing
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createaddition:rolling
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createaddition:charging
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: createaddition:liquid_burning
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: controlengineering:panel
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: controlengineering:glue_tape
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: controlengineering:component_cost
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: controlengineering:server_font_width
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: controlengineering:schematic_copy
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [com.dkmk100.ars_industria.ArsIndustria/]: controlengineering:key_copy
+[21Mar2023 21:35:19.741] [modloading-worker-0/INFO] [net.forsteri.createindustrialchemistry.CreateIndustrialChemistry/]: HELLO FROM PREINIT
+[21Mar2023 21:35:19.742] [modloading-worker-0/INFO] [net.forsteri.createindustrialchemistry.CreateIndustrialChemistry/]: DIRT BLOCK >> minecraft:dirt
+[21Mar2023 21:35:19.749] [modloading-worker-0/INFO] [net.forsteri.createendertransmission.CreateEnderTransmission/]: HELLO FROM PREINIT
+[21Mar2023 21:35:19.753] [modloading-worker-0/INFO] [dev.itsmeow.whisperwoods.WhisperwoodsMod/]: Summoning a hidebehind to eat you...
+[21Mar2023 21:35:19.755] [modloading-worker-0/INFO] [com.lgmrszd.compressedcreativity.CompressedCreativity/]: HELLO FROM PREINIT
+[21Mar2023 21:35:19.758] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[21Mar2023 21:35:19.801] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[21Mar2023 21:35:19.820] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/end-biomes.json5" was read.
+[21Mar2023 21:35:19.841] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/nether-biomes.json5" was read.
+[21Mar2023 21:35:19.879] [modloading-worker-0/INFO] [corgitaco.enhancedcelestials.EnhancedCelestials/]: Initialized enhancedcelestials network!
+[21Mar2023 21:35:19.885] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [created_music_discs] Starting version check at https://raw.githubusercontent.com/MomentariyModder/versions/main/CMD/version.json
+[21Mar2023 21:35:19.927] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[21Mar2023 21:35:19.930] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/byg-biome-dictionary.json" was read.
+[21Mar2023 21:35:19.943] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[21Mar2023 21:35:19.992] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/surface_rules/end_surface_rules.json5" was read.
+[21Mar2023 21:35:19.996] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[21Mar2023 21:35:20.023] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/growing-patterns.json5" was read.
+[21Mar2023 21:35:20.053] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [created_music_discs] Found status: AHEAD Current: 1.0.1 Target: null
+[21Mar2023 21:35:20.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.18.2
+[21Mar2023 21:35:20.058] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/trades.json5" was read.
+[21Mar2023 21:35:20.073] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/settings.json5" was read.
+[21Mar2023 21:35:20.076] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/biomepedia.json5" was read.
+[21Mar2023 21:35:20.095] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: Created compressed zip back up for "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg" in "/mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/config/byg/backups/last_working_configs_backup.zip"
+[21Mar2023 21:35:20.106] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: BYG: Added strippable Blocks...
+[21Mar2023 21:35:20.109] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/desert/houses]' to registry
+[21Mar2023 21:35:20.109] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/snowy/houses]' to registry
+[21Mar2023 21:35:20.109] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/plains/houses]' to registry
+[21Mar2023 21:35:20.109] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/savanna/houses]' to registry
+[21Mar2023 21:35:20.109] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/template_pool / minecraft:village/taiga/houses]' to registry
+[21Mar2023 21:35:20.208] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 13.2.52 Target: 13.2.53
+[21Mar2023 21:35:20.208] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[21Mar2023 21:35:20.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: UP_TO_DATE Current: 1.4.3 Target: null
+[21Mar2023 21:35:20.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkutils] Starting version check at https://updates.blamejared.com/get?n=darkutils&gv=1.18.2
+[21Mar2023 21:35:20.239] [main/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: NetworkDirection channel createendertransmission:main already registered.
+[21Mar2023 21:35:20.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkutils] Found status: BETA Current: 10.1.6 Target: 10.1.6
+[21Mar2023 21:35:20.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [momentariycore2] Starting version check at https://raw.githubusercontent.com/MomentariyModder/versions/main/Applications/version.json
+[21Mar2023 21:35:20.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [momentariycore2] Found status: UP_TO_DATE Current: 3.2 Target: null
+[21Mar2023 21:35:20.269] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[21Mar2023 21:35:20.370] [main/INFO] [potionstudios.byg.BYG/]: Initializing BYG network...
+[21Mar2023 21:35:20.374] [main/INFO] [potionstudios.byg.BYG/]: Initialized BYG network!
+[21Mar2023 21:35:20.388] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21Mar2023 21:35:20.388] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[21Mar2023 21:35:20.388] [main/INFO] [terrablender/]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[21Mar2023 21:35:20.389] [main/INFO] [terrablender/]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[21Mar2023 21:35:20.389] [main/INFO] [terrablender/]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[21Mar2023 21:35:20.390] [main/INFO] [terrablender/]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[21Mar2023 21:35:20.393] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[21Mar2023 21:35:20.393] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[21Mar2023 21:35:20.394] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[21Mar2023 21:35:20.395] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[21Mar2023 21:35:20.400] [modloading-worker-0/INFO] [pneumaticcraft/]: Sending IMC messages.
+[21Mar2023 21:35:20.403] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov/]: Got IMC []
+[21Mar2023 21:35:20.421] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at mcp.mobius.waila.addons.core.CorePlugin
+[21Mar2023 21:35:20.424] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at com.t2pellet.strawgolem.client.compat.CompatHwyla
+[21Mar2023 21:35:20.425] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at net.mrscauthd.beyond_earth.compats.waila.WailaPlugin
+[21Mar2023 21:35:20.427] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at me.desht.pneumaticcraft.common.thirdparty.waila.WailaRegistration
+[21Mar2023 21:35:20.429] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[21Mar2023 21:35:20.432] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at snownee.jade.VanillaPlugin
+[21Mar2023 21:35:20.438] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[21Mar2023 21:35:20.455] [modloading-worker-0/INFO] [Waila/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[21Mar2023 21:35:20.470] [main/INFO] [potionstudios.byg.BYG/]: BYG: Compostable Blocks Added!
+[21Mar2023 21:35:20.471] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added tillables!
+[21Mar2023 21:35:20.473] [main/INFO] [potionstudios.byg.BYG/]: BYG: Added Flammables!
+[21Mar2023 21:35:20.474] [main/INFO] [potionstudios.byg.BYG/]: BYG: "Load Complete" Event Complete!
+[21Mar2023 21:35:20.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: UP_TO_DATE Current: 4.1.1494 Target: null
+[21Mar2023 21:35:20.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[21Mar2023 21:35:20.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 1.14.7 Target: 1.14.7
+[21Mar2023 21:35:20.524] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pluto] Starting version check at https://github.com/AbdElAziz333/Pluto/blob/mc1.18.2/dev/updates.json
+[21Mar2023 21:35:20.928] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.18.2-40.2.0.jar%23180!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.2.0.jar%23180!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	... 6 more
+[21Mar2023 21:35:20.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[21Mar2023 21:35:20.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.1.0 Target: null
+[21Mar2023 21:35:20.939] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.18.2
+[21Mar2023 21:35:22.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: UP_TO_DATE Current: 4.1.3.480 Target: null
+[21Mar2023 21:35:22.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastload] Starting version check at https://github.com/BumbleSoftware/Fastload/raw/mc1.19.2/dev/updates.json
+[21Mar2023 21:35:22.177] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2320!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.18.2-40.2.0.jar%23180!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.2.0.jar%23180!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2320!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2320!/:?]
+	... 6 more
+[21Mar2023 21:35:22.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[21Mar2023 21:35:22.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[21Mar2023 21:35:22.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[21Mar2023 21:35:22.763] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.0.0 Target: 2.0.0
+[21Mar2023 21:35:22.763] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pneumaticcraft] Starting version check at https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/1.18.2/release_info.json
+[21Mar2023 21:35:22.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pneumaticcraft] Found status: AHEAD Current: 1.18.2-3.6.0-19 Target: null
+[21Mar2023 21:35:22.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderstorage] Starting version check at https://version-check.covers1624.net/check/?mod=EnderStorage&mc=1.18.2
+[21Mar2023 21:35:23.072] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderstorage] Found status: UP_TO_DATE Current: 2.9.0.182 Target: null
+[21Mar2023 21:35:23.072] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Mar2023 21:35:23.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.2.0 Target: null
+[21Mar2023 21:35:23.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zerocore] Starting version check at https://raw.githubusercontent.com/ZeroNoRyouki/ZeroCore2/master/update.json
+[21Mar2023 21:35:23.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zerocore] Found status: UP_TO_DATE Current: 1.18.2-2.1.31 Target: null
+[21Mar2023 21:35:23.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bigreactors] Starting version check at https://raw.githubusercontent.com/ZeroNoRyouki/ExtremeReactors2/master/update.json
+[21Mar2023 21:35:23.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bigreactors] Found status: AHEAD Current: 1.18.2-2.0.61 Target: null
+[21Mar2023 21:35:23.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.18.2/changelog.json
+[21Mar2023 21:35:23.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.18.2-8.4.0-161 Target: null
+[21Mar2023 21:35:23.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[21Mar2023 21:35:23.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: UP_TO_DATE Current: 0.6.8.a Target: null
+[21Mar2023 21:35:23.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://maxhenkel.de/update/gravestone.json
+[21Mar2023 21:35:23.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: UP_TO_DATE Current: 1.18.2-1.0.2 Target: null
+[21Mar2023 21:35:23.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[21Mar2023 21:35:23.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: AHEAD Current: 0.1.6 Target: null
+[21Mar2023 21:35:28.503] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Mar2023 21:35:28.535] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /mnt/ssd/Games/Minecraft/1.18.2-Forge_mod_server/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:98) ~[server-1.18.2-20220404.173914-srg.jar%23179!/:?]
+	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:44) ~[server-1.18.2-20220404.173914-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:287) ~[server-1.18.2-20220404.173914-srg.jar%23179!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_78260_(LevelStorageSource.java:275) ~[server-1.18.2-20220404.173914-srg.jar%23179!/:?]
+	at net.minecraft.server.Main.main(Main.java:132) ~[server-1.18.2-20220404.173914-srg.jar%23179!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:32) ~[fmlloader-1.18.2-40.2.0.jar%2317!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]

@@ -1,0 +1,64 @@
+accumulator = {}
+
+#General Settings
+[general]
+	#Forge Energy conversion rate (in FE/t at 256 RPM).
+	#Range: > 0
+	fe_conversion = 240
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: 0 ~ 16383
+	baseline_stress = 8192
+
+#Electric Motor
+[electric_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 4096
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 4096
+
+#Alternator
+[alternator]
+	#Alternator max input in FE (Energy transfer, not generation).
+	#Range: > 0
+	generator_max_output = 4096
+	#Alternator internal capacity in FE.
+	#Range: > 0
+	generator_capacity = 4096
+	#Alternator efficiency relative to base conversion rate.
+	#Range: 0.01 ~ 1.0
+	generator_efficiency = 0.75
+
+#Rolling Mill
+[rolling_mill]
+	#Rolling Mill duration in ticks.
+	#Range: > 0
+	rolling_mill_processing_duration = 100
+	#Rolling Mill base stress impact.
+	#Range: 0 ~ 1024
+	rolling_mill_stress = 16
+
+#Wires
+[wires]
+	#Connector max input in FE/t (Energy transfer).
+	#Range: > 0
+	connector_max_input = 4096
+	#Connector max output in FE/t (Energy transfer).
+	#Range: > 0
+	connector_max_output = 4096
+	#Connector internal input buffer in FE.
+	#Range: > 0
+	connector_input_capacity = 4096
+	#Max wire length in blocks.
+	#Range: 0 ~ 256
+	wire_length = 12
+	#Ignore checking if block face can support connector.
+	connector_ignore_face_check = true
+

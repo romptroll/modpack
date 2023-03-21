@@ -1,0 +1,21 @@
+
+[server]
+
+	#Configure properties related to tools here.
+	[server.tool_properties]
+
+		#Configure tool properties related to block breaking speed here.
+		[server.tool_properties.breaking_speed_multipliers]
+			#Block breaking speed multiplier for Netherite-Iron tools
+			#Range: 1 ~ 64
+			ironBreakingSpeedMultiplier = 12
+			#Block breaking speed multiplier for Netherite-Gold tools
+			#Range: 1 ~ 64
+			goldBreakingSpeedMultiplier = 20
+			#Block breaking speed multiplier for Netherite-Emerald tools
+			#Range: 1 ~ 64
+			emeraldBreakingSpeedMultiplier = 29
+			#Block breaking speed multiplier for Netherite-Diamond tools
+			#Range: 1 ~ 64
+			diamondBreakingSpeedMultiplier = 39
+
